@@ -20,7 +20,7 @@ const CarCard = ({ car, onSelect }) => {
         </div>
         <div className="flex justify-between items-center">
           <div className="text-lg font-bold">
-            ₩{car.pricePerDay.toLocaleString()}/day
+            ${car.pricePerDay.toLocaleString()}/day
           </div>
           <button
             onClick={() => onSelect(car)}
