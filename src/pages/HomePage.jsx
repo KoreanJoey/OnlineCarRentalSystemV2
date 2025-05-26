@@ -112,13 +112,14 @@ const HomePage = () => {
           Car Rental Service
         </h1>
 
+        <SearchBox onSearch={handleSearch} cars={cars} />
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
           <div className="lg:col-span-1">
             <Filters onFilterChange={handleFilterChange} cars={cars} />
           </div>
 
           <div className="lg:col-span-3">
-            <SearchBox onSearch={handleSearch} cars={cars} />
+            
             <CarList cars={filteredCars} onCarSelect={handleCarSelect} />
           </div>
         </div>
