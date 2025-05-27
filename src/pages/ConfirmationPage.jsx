@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
+import Header from "../components/Header";
 
 const ConfirmationPage = () => {
   const { orderId } = useParams();
@@ -46,7 +47,8 @@ const ConfirmationPage = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gray-100 py-8">
+    <div className="min-h-screen bg-gray-100">
+      <Header />
       <div className="container mx-auto px-4">
         <div className="max-w-2xl mx-auto">
           <div className="bg-white rounded-lg shadow-md overflow-hidden">

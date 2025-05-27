@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import ReservationForm from "../components/ReservationForm";
+import Header from "../components/Header";
 
 const ReservationPage = () => {
   const { carId } = useParams();
@@ -62,7 +63,8 @@ const ReservationPage = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gray-100 py-8">
+    <div className="min-h-screen bg-gray-100 ">
+      <Header />
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <div className="bg-white rounded-lg shadow-md overflow-hidden mb-8">
