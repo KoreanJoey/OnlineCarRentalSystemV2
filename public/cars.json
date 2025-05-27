@@ -8,9 +8,9 @@
       "type": "Sedan",
       "transmission": "Automatic",
       "fuelType": "Gasoline",
-      "pricePerDay": 50000,
+      "pricePerDay": 250,
       "available": true,
-      "image": "https://images.unsplash.com/photo-1617469767053-3c4f2a6c3c1f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+      "image": "https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=800&q=80"
     },
     {
       "id": 2,
@@ -20,9 +20,9 @@
       "type": "SUV",
       "transmission": "Automatic",
       "fuelType": "Gasoline",
-      "pricePerDay": 60000,
+      "pricePerDay": 300,
       "available": true,
-      "image": "https://images.unsplash.com/photo-1617469767053-3c4f2a6c3c1f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+      "image": "https://images.unsplash.com/photo-1656468014942-fc3f9084b2ba?auto=format&fit=crop&w=800&q=80"
     },
     {
       "id": 3,
@@ -32,9 +32,189 @@
       "type": "Luxury",
       "transmission": "Automatic",
       "fuelType": "Gasoline",
-      "pricePerDay": 100000,
+      "pricePerDay": 600,
       "available": true,
-      "image": "https://images.unsplash.com/photo-1617469767053-3c4f2a6c3c1f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+      "image": "https://images.unsplash.com/photo-1617531653332-bd46c24f2068?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 4,
+      "brand": "Toyota",
+      "model": "Camry",
+      "year": 2023,
+      "type": "Sedan",
+      "transmission": "Automatic",
+      "fuelType": "Hybrid",
+      "pricePerDay": 280,
+      "available": true,
+      "image": "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 5,
+      "brand": "Honda",
+      "model": "CR-V",
+      "year": 2023,
+      "type": "SUV",
+      "transmission": "Automatic",
+      "fuelType": "Gasoline",
+      "pricePerDay": 320,
+      "available": true,
+      "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 6,
+      "brand": "BMW",
+      "model": "X5",
+      "year": 2023,
+      "type": "Luxury SUV", 
+      "transmission": "Automatic",
+      "fuelType": "Diesel",
+      "pricePerDay": 700,
+      "available": true,
+      "image": "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 7,
+      "brand": "Tesla",
+      "model": "Model 3",
+      "year": 2023,
+      "type": "Electric",
+      "transmission": "Automatic",
+      "fuelType": "Electric",
+      "pricePerDay": 500,
+      "available": true,
+      "image": "https://images.unsplash.com/photo-1536700503339-1e4b06520771?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 8,
+      "brand": "Mercedes-Benz",
+      "model": "C-Class",
+      "year": 2023,
+      "type": "Luxury",
+      "transmission": "Automatic",
+      "fuelType": "Gasoline",
+      "pricePerDay": 650,
+      "available": true,
+      "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 9,
+      "brand": "Audi",
+      "model": "Q5",
+      "year": 2023,
+      "type": "Luxury SUV",
+      "transmission": "Automatic",
+      "fuelType": "Diesel",
+      "pricePerDay": 680,
+      "available": true,
+      "image": "https://images.unsplash.com/photo-1614200187524-dc4b892acf16?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 10,
+      "brand": "Ford",
+      "model": "Mustang",
+      "year": 2023,
+      "type": "Sports",
+      "transmission": "Manual",
+      "fuelType": "Gasoline",
+      "pricePerDay": 550,
+      "available": true,
+      "image": "https://images.unsplash.com/photo-1584345604476-8ec5e12e42dd?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 11,
+      "brand": "Volkswagen",
+      "model": "Golf",
+      "year": 2023,
+      "type": "Hatchback",
+      "transmission": "Automatic",
+      "fuelType": "Gasoline",
+      "pricePerDay": 220,
+      "available": true,
+      "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 12,
+      "brand": "Lexus",
+      "model": "RX",
+      "year": 2023,
+      "type": "Luxury SUV",
+      "transmission": "Automatic",
+      "fuelType": "Hybrid",
+      "pricePerDay": 620,
+      "available": true,
+      "image": "https://images.unsplash.com/photo-1618486613525-c694bf152b2c?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 13,
+      "brand": "Mazda",
+      "model": "CX-5",
+      "year": 2023,
+      "type": "SUV",
+      "transmission": "Automatic",
+      "fuelType": "Gasoline",
+      "pricePerDay": 290,
+      "available": true,
+      "image": "https://images.unsplash.com/photo-1638618164682-12b986ec2a75?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 14,
+      "brand": "Porsche",
+      "model": "911",
+      "year": 2023,
+      "type": "Sports",
+      "transmission": "Automatic",
+      "fuelType": "Gasoline",
+      "pricePerDay": 800,
+      "available": true,
+      "image": "https://images.unsplash.com/photo-1580274455191-1c62238fa333?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 15,
+      "brand": "Subaru",
+      "model": "Outback",
+      "year": 2023,
+      "type": "Crossover", 
+      "transmission": "Automatic",
+      "fuelType": "Gasoline",
+      "pricePerDay": 310,
+      "available": true,
+      "image": "https://images.unsplash.com/photo-1626668893632-6f3a4466d22f?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 16,
+      "brand": "Chevrolet",
+      "model": "Corvette",
+      "year": 2023,
+      "type": "Sports",
+      "transmission": "Automatic",
+      "fuelType": "Gasoline",
+      "pricePerDay": 750,
+      "available": true,
+      "image": "https://images.unsplash.com/photo-1612544448445-b8232cff3b6c?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 17,
+      "brand": "Nissan",
+      "model": "Leaf",
+      "year": 2023,
+      "type": "Electric", 
+      "transmission": "Automatic",
+      "fuelType": "Electric",
+      "pricePerDay": 450,
+      "available": true,
+      "image": "https://images.unsplash.com/photo-1619767886558-efdc259cde1a?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 18,
+      "brand": "Volvo",
+      "model": "XC90",
+      "year": 2023,
+      "type": "Luxury SUV", 
+      "transmission": "Automatic",
+      "fuelType": "Hybrid",
+      "pricePerDay": 670,
+      "available": true,
+      "image": "https://images.unsplash.com/photo-1519245659620-e859806a8d3b?auto=format&fit=crop&w=800&q=80"
     }
   ]
 }
