@@ -17,6 +17,7 @@ const CarCard = ({ car, onSelect }) => {
           <div>Type: {car.type}</div>
           <div>Transmission: {car.transmission}</div>
           <div>Fuel: {car.fuelType}</div>
+          <div>Available: {car.availabilityCount} units</div>
         </div>
         <div className="flex justify-between items-center">
           <div className="text-lg font-bold">
@@ -24,14 +25,16 @@ const CarCard = ({ car, onSelect }) => {
           </div>
           <button
             onClick={() => onSelect(car)}
-            disabled={!car.available}
+            disabled={!car.available || car.availabilityCount === 0}
             className={`px-4 py-2 rounded-md ${
-              car.available
+              car.available && car.availabilityCount > 0
                 ? "bg-blue-600 text-white hover:bg-blue-700"
                 : "bg-gray-300 text-gray-500 cursor-not-allowed"
             }`}
           >
-            {car.available ? "Reservation" : "Not Available"}
+            {car.available && car.availabilityCount > 0
+              ? `Reserve (${car.availabilityCount} left)`
+              : "Not Available"}
           </button>
         </div>
       </div>

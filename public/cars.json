@@ -10,6 +10,7 @@
       "fuelType": "Gasoline",
       "pricePerDay": 250,
       "available": true,
+      "availabilityCount": 3,
       "image": "https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=800&q=80"
     },
     {
@@ -22,6 +23,7 @@
       "fuelType": "Gasoline",
       "pricePerDay": 300,
       "available": true,
+      "availabilityCount": 2,
       "image": "https://images.unsplash.com/photo-1656468014942-fc3f9084b2ba?auto=format&fit=crop&w=800&q=80"
     },
     {
@@ -34,6 +36,7 @@
       "fuelType": "Gasoline",
       "pricePerDay": 600,
       "available": true,
+      "availabilityCount": 0,
       "image": "https://images.unsplash.com/photo-1617531653332-bd46c24f2068?auto=format&fit=crop&w=800&q=80"
     },
     {
@@ -46,6 +49,7 @@
       "fuelType": "Hybrid",
       "pricePerDay": 280,
       "available": true,
+      "availabilityCount": 4,
       "image": "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?auto=format&fit=crop&w=800&q=80"
     },
     {
@@ -58,6 +62,7 @@
       "fuelType": "Gasoline",
       "pricePerDay": 320,
       "available": true,
+      "availabilityCount": 2,
       "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=80"
     },
     {
@@ -65,11 +70,12 @@
       "brand": "BMW",
       "model": "X5",
       "year": 2023,
-      "type": "Luxury SUV", 
+      "type": "Luxury SUV",
       "transmission": "Automatic",
       "fuelType": "Diesel",
       "pricePerDay": 700,
       "available": true,
+      "availabilityCount": 1,
       "image": "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=800&q=80"
     },
     {
@@ -82,6 +88,7 @@
       "fuelType": "Electric",
       "pricePerDay": 500,
       "available": true,
+      "availabilityCount": 2,
       "image": "https://images.unsplash.com/photo-1536700503339-1e4b06520771?auto=format&fit=crop&w=800&q=80"
     },
     {
@@ -94,6 +101,7 @@
       "fuelType": "Gasoline",
       "pricePerDay": 650,
       "available": true,
+      "availabilityCount": 1,
       "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=800&q=80"
     },
     {
@@ -106,6 +114,7 @@
       "fuelType": "Diesel",
       "pricePerDay": 680,
       "available": true,
+      "availabilityCount": 1,
       "image": "https://images.unsplash.com/photo-1614200187524-dc4b892acf16?auto=format&fit=crop&w=800&q=80"
     },
     {
@@ -118,6 +127,7 @@
       "fuelType": "Gasoline",
       "pricePerDay": 550,
       "available": true,
+      "availabilityCount": 1,
       "image": "https://images.unsplash.com/photo-1584345604476-8ec5e12e42dd?auto=format&fit=crop&w=800&q=80"
     },
     {
@@ -130,6 +140,7 @@
       "fuelType": "Gasoline",
       "pricePerDay": 220,
       "available": true,
+      "availabilityCount": 3,
       "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=800&q=80"
     },
     {
@@ -142,6 +153,7 @@
       "fuelType": "Hybrid",
       "pricePerDay": 620,
       "available": true,
+      "availabilityCount": 1,
       "image": "https://images.unsplash.com/photo-1618486613525-c694bf152b2c?auto=format&fit=crop&w=800&q=80"
     },
     {
@@ -154,6 +166,7 @@
       "fuelType": "Gasoline",
       "pricePerDay": 290,
       "available": true,
+      "availabilityCount": 2,
       "image": "https://images.unsplash.com/photo-1638618164682-12b986ec2a75?auto=format&fit=crop&w=800&q=80"
     },
     {
@@ -166,6 +179,7 @@
       "fuelType": "Gasoline",
       "pricePerDay": 800,
       "available": true,
+      "availabilityCount": 1,
       "image": "https://images.unsplash.com/photo-1580274455191-1c62238fa333?auto=format&fit=crop&w=800&q=80"
     },
     {
@@ -173,11 +187,12 @@
       "brand": "Subaru",
       "model": "Outback",
       "year": 2023,
-      "type": "Crossover", 
+      "type": "Crossover",
       "transmission": "Automatic",
       "fuelType": "Gasoline",
       "pricePerDay": 310,
       "available": true,
+      "availabilityCount": 2,
       "image": "https://images.unsplash.com/photo-1626668893632-6f3a4466d22f?auto=format&fit=crop&w=800&q=80"
     },
     {
@@ -190,6 +205,7 @@
       "fuelType": "Gasoline",
       "pricePerDay": 750,
       "available": true,
+      "availabilityCount": 1,
       "image": "https://images.unsplash.com/photo-1612544448445-b8232cff3b6c?auto=format&fit=crop&w=800&q=80"
     },
     {
@@ -197,11 +213,12 @@
       "brand": "Nissan",
       "model": "Leaf",
       "year": 2023,
-      "type": "Electric", 
+      "type": "Electric",
       "transmission": "Automatic",
       "fuelType": "Electric",
       "pricePerDay": 450,
       "available": true,
+      "availabilityCount": 2,
       "image": "https://images.unsplash.com/photo-1619767886558-efdc259cde1a?auto=format&fit=crop&w=800&q=80"
     },
     {
@@ -209,11 +226,12 @@
       "brand": "Volvo",
       "model": "XC90",
       "year": 2023,
-      "type": "Luxury SUV", 
+      "type": "Luxury SUV",
       "transmission": "Automatic",
       "fuelType": "Hybrid",
       "pricePerDay": 670,
       "available": true,
+      "availabilityCount": 1,
       "image": "https://images.unsplash.com/photo-1519245659620-e859806a8d3b?auto=format&fit=crop&w=800&q=80"
     }
   ]
